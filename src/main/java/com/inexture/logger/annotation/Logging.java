@@ -13,5 +13,4 @@ import com.inexture.logger.monitor.LoggerMonitor;
 @Target({ElementType.METHOD, ElementType.TYPE})
 @Retention(RetentionPolicy.RUNTIME)
 public @interface Logging {
-	String packegName();
 }
